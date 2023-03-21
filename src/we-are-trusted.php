@@ -25,7 +25,7 @@
         <section>
             <div class="container-xxl">
                 <div class="row">
-                    <div class="col-12 logos-gallery logos-gallery-sm logos-gallery-md logos-gallery-lg logos-gallery-xxl d-grid px-md-5 px-xxl-0 py-5">
+                    <div class="col-12 logos-gallery d-grid px-md-5 px-xxl-0 py-5">
                         <img src="..\assets\images\we-are-trusted\kyvernisi_logo.jpg" class="w-100">
                         <img src="..\assets\images\we-are-trusted\aade_logo.jpg" class="w-100">
                         <img src="..\assets\images\we-are-trusted\Fraport_logo.jpg" class="w-100">
