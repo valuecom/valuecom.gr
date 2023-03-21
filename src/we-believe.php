@@ -10,7 +10,7 @@
   <body>
   <header>
       <div class="container-xxl">
-        
+
       </div>
     </header>
     <h1>We believe</h1>
