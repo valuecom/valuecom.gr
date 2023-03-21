@@ -80,7 +80,6 @@
                         <img src="..\assets\images\we-are-trusted\Lagunitas_logo.jpg" class="w-100">
                         <img src="..\assets\images\we-are-trusted\Milokleftis_logo.jpg" class="w-100">
                         <img src="..\assets\images\we-are-trusted\Nimfi_logo.jpg" class="w-100">
-
                     </div>
                 </div>
             </div>
