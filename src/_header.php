@@ -17,7 +17,7 @@
       <div class="row align-items-center">
         <div class="col-2">
           <div class="logo-wrap">
-            <a href="#">
+            <a href="/">
               <img src="../assets/images/logo.svg" alt="Valuecom">
             </a>
           </div>
