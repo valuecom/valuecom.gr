@@ -17,8 +17,25 @@
     <!-- page title -->
     <section class="page-title-section">
       <div class="container-xxl">
-        
+        <div class="page-title-wrap my-5 px-5">
+          <h1 class="page-title fs-1 fw-normal text-center text-lg-start">We are trusted</h1>
+        </div>
       </div>
+    </section>
+    <section>
+      <div class="container-xxl d-flex justify-content-center pb-5">
+        <img src="../assets/images/we-are-trusted/We-are-trusted_Art.jpg">
+      </div>
+    </section>
+    <section>
+      <div class="container-xxl pb-5 px-5">
+        <div class="px-md-5 mx-lg-5">
+          <p>To be the best, you need to work with the best – we strive to achieve a brand roster with some of the most important global brands and marketing champions. The average duration of our relationship with our partners is well over 5 years.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+        
     </section>
 
 
