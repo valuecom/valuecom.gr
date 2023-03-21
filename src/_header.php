@@ -43,7 +43,7 @@
                     <a class="nav-link" href="#">The team</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Careers</a>
+                    <a class="nav-link" href="<?php echo $link_base_url; ?>valuecom-team.php">Careers</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
