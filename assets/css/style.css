@@ -37,6 +37,8 @@ footer li a {
     gap: 10px;
 }
 
+
+
 /* sm */
 @media (min-width: 576px) {
     .logos-gallery-sm {
