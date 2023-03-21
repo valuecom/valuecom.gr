@@ -24,7 +24,7 @@
     </section>
     <section>
       <div class="container-xxl d-flex justify-content-center pb-5">
-        <img src="../assets/images/we-believe.png">
+        <img src="../assets/images/we-believe/we-believe.png">
       </div>
     </section>
     <section>

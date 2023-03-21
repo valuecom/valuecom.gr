@@ -17,13 +17,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Clients</a>
+                    <a class="nav-link" aria-current="page" href="http://localhost/GitHub/valuecom.gr/src/we-are-trusted.php">Clients</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Work</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Culture</a>
+                    <a class="nav-link active" href="http://localhost/GitHub/valuecom.gr/src/we-believe.php">Culture</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">The team</a>
