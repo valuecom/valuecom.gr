@@ -1,4 +1,4 @@
-<?php include_once('config.php'); ?>
+<?php include_once('_config.php'); ?>
 <header class="d-flex align-items-center">
     <div class="container-xxl ">
       <div class="row align-items-center">

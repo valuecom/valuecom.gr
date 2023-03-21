@@ -16,10 +16,16 @@ foreach ($search_results as $file){
     $file_new_url = str_replace('src','public',$file_new_url);
 
     $html = file_get_contents($file_url);
+
+    // correct paths
+    $html = str_replace('/src/','/public/',$html);
+    $html = str_replace('.php','.html',$html);
+
+
     $s = file_put_contents($file_name, $html);
 
     if ($s) {
-        echo $file_name." - created !!! -> <a href='".$file_new_url."' target='_blank' >".$file_new_url."</a><br/>";
+        echo $file_name." - created !!! -> <a href='".$file_url."' target='_blank' >".$file_url."</a> - <a href='".$file_new_url."' target='_blank' >".$file_new_url."</a><br/>";
     }else{
         echo $file_name."not created<br/>";
     }
