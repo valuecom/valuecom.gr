@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 <?php include_once('_config.php'); ?>
-=======
-<?php include_once('config.php'); ?>
 
->>>>>>> 6b82473121e735202c7a55d48822db0f829b7dcb
 <header class="d-flex align-items-center">
     <div class="container-xxl ">
       <div class="row align-items-center">
