@@ -3,6 +3,7 @@
 :root {
     --color_dark: #1D1D1D;
     --color_white: #ffffff;
+    --color_red: #c36;
 }
 
 img {
@@ -15,9 +16,10 @@ body {
     line-height: 1.5;
     min-height: 100vh;
 }
+
 a {
     text-decoration: none;
-    color: #c36;
+    color: var(--color_red);
 }
 
 header {
@@ -34,7 +36,6 @@ footer li {
 
 footer li a {
     color: var(--color_white);
-    text-decoration: none;
 }
 
 .logos-gallery {
@@ -46,21 +47,21 @@ footer li a {
 
 /* sm */
 @media (min-width: 576px) {
-    .logos-gallery-sm {
+    .logos-gallery {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
 /* md */
 @media (min-width: 768px) {
-    .logos-gallery-md {
+    .logos-gallery {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
 
 /* lg */
 @media (min-width: 992px) {
-    .logos-gallery-lg {
+    .logos-gallery {
         grid-template-columns: repeat(5, minmax(0, 1fr));
     }
 }
@@ -70,7 +71,7 @@ footer li a {
 
 /* xxl */
 @media (min-width: 1400px) {
-    .logos-gallery-xxl {
+    .logos-gallery {
         grid-template-columns: repeat(6, minmax(0, 1fr));
     }
 }
