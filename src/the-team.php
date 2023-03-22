@@ -50,7 +50,7 @@ include_once("_header.php");
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../assets/images/the-team/makrakirita.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/images/the-team/rita.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Rita Makraki</h5>
                             <p class="card-text">Business Unit Director</p>
@@ -86,7 +86,7 @@ include_once("_header.php");
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../assets/images/the-team/karagiannis.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/images/the-team/takis.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Takis Karagiannis</h5>
                             <p class="card-text">Director, Sustainability & Innovation</p>
@@ -108,7 +108,7 @@ include_once("_header.php");
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../assets/images/the-team/filis.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/images/the-team/aggelos.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Aggelos Filis</h5>
                             <p class="card-text">Finance Director</p>
