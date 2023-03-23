@@ -25,7 +25,7 @@ include_once("_header.php");
             </div>
             <hr>
             <div class="contact-info-wrap py-5">
-                <p>6 AG. GEORGIOU KARITSI SQR. 10561<br />
+                <p style="color: #696969;">6 AG. GEORGIOU KARITSI SQR. 10561<br />
                     ATHENS,GREECE<br />
                     <a href="tel:+30 210 3252103">+30 210 3252103</a><br />
                     email: <a href="mailto:admin@valuecom.gr">admin@valuecom.gr</a>
