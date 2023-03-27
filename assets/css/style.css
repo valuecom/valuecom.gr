@@ -99,7 +99,10 @@ footer li a {
 .home-slider:hover .slick-arrow{
     opacity: 1;
 }
-
+.single-item-1{
+    background-image: url("../images/home/ermis-gold.jpg");
+    background-size: cover;
+}
 /* sm */
 @media (min-width: 576px) {
     .logos-gallery {

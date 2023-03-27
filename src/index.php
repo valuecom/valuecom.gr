@@ -8,9 +8,9 @@ include_once("_header.php");
     <div class="container-fluid px-0">
       <div class="slider">
         <div class="home-slider">
-          <div class="single-item"><img class="img-fluid" style="object-fit: cover;width:100%;" src="../assets/images/home/ermis-gold.jpg" alt=""></div>
-          <div class="single-item"><img class="img-fluid" style="object-fit: cover;width:100%;" src="../assets/images/home/fullstack-marketing.jpg" alt=""></div>
-          <div class="single-item"><img class="img-fluid" style="object-fit: cover;width:100%;" src="../assets/images/home/digital-dissraption-sessions.jpg" alt=""></div>
+          <div class="single-item single-item-1"></div>
+          <!-- <div class="single-item"><img class="img-fluid" style="object-fit: cover;width:100%;" src="../assets/images/home/fullstack-marketing.jpg" alt=""></div> -->
+          <!-- <div class="single-item"><img class="img-fluid" style="object-fit: cover;width:100%;" src="../assets/images/home/digital-dissraption-sessions.jpg" alt=""></div> -->
         </div>
         <!--  -->
       </div>
