@@ -8,8 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VALUECOM | Fullstack Marketing Agency</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="icon" href="../assets/images/favicon.png" sizes="32x32">
+
 </head>
 
 <body class="d-flex flex-column">
@@ -18,7 +24,7 @@
       <div class="row align-items-center">
         <div class="col-6 col-lg-2">
           <div class="logo-wrap">
-            <a href="https://valuecom.github.io/valuecom.gr/public/index.html">
+            <a href="<?php echo $link_base_url; ?>index.php">
               <img src="../assets/images/logo.svg" alt="Valuecom">
             </a>
           </div>
@@ -30,8 +36,8 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
+                <ul class="navbar-nav fw-medium">
+                  <li class="nav-item ">
                     <a class="nav-link" href="<?php echo $link_base_url; ?>we-are-trusted.php">Clients</a>
                   </li>
                   <li class="nav-item">

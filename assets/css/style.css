@@ -54,7 +54,51 @@ footer li a {
 .the-team-cards .card img {
     border-radius: unset;
 }
-
+.figure-img-wrap {
+    overflow: hidden;
+}
+.figure .figure-img {
+    transform: scale(1);
+    transition: 1s;
+    margin: 0;
+}
+.figure:hover .figure-img {
+    transform: scale(1.3);
+}
+.figure .figure-caption{
+    padding: 14px 2px 0;
+}
+.slick-next, .slick-prev {
+    right: 25px;
+    z-index: 9;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.slick-next{
+    right: 25px;
+}
+.slick-prev{
+    left:25px;
+}
+.slick-prev:before {
+    background-image: url(../images/home/arrow-left.png);
+    width: 35px;
+    height: 35px;
+    display: block;
+    content: " ";
+}
+.slick-next:before{
+    background-image: url(../images/home/arrow-right.png);
+    width: 35px;
+    height: 35px;
+    display: block;
+    content: " ";
+}
+.home-slider:hover .slick-arrow{
+    opacity: 1;
+}
 
 /* sm */
 @media (min-width: 576px) {
