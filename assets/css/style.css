@@ -10,7 +10,9 @@
 img {
     max-width: 100%;
 }
-
+html, body{
+    height: 100%;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -73,8 +75,9 @@ footer li a {
     z-index: 9;
     width: 35px;
     height: 35px;
-    opacity: 0;
+    /* opacity: 0; */
     transition: 0.3s;
+    background: #c36;
 }
 .slick-next{
     right: 25px;
@@ -99,9 +102,22 @@ footer li a {
 .home-slider:hover .slick-arrow{
     opacity: 1;
 }
+.slick-list, .slick-track{
+    height: 100%;
+}
+.single-item{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
 .single-item-1{
     background-image: url("../images/home/ermis-gold.jpg");
-    background-size: cover;
+}
+.single-item-2{
+    background-image: url("../images/home/fullstack-marketing.jpg");
+}
+.single-item-3{
+    background-image: url("../images/home/digital-dissraption-sessions.jpg");
 }
 /* sm */
 @media (min-width: 576px) {
