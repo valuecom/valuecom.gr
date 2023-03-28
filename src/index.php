@@ -4,13 +4,34 @@ include_once("_header.php");
 
 <main id="content">
 
-  <section class="slider-section mb-5 h-100">
+  <section class="slider-section mb-5 ">
     <div class="container-fluid px-0 h-100">
       <div class="slider h-100">
+        <!-- <div class="placeholder-height-slider"><img src="../assets/images/home/placeholder-img.png" alt=""></div> -->
         <div class="home-slider h-100">
-          <div class="single-item single-item-1 h-100"></div>
-          <div class="single-item single-item-2 h-100"></div>
-          <div class="single-item single-item-3 h-100"></div>
+          <div class="single-item single-item-1 h-100">
+            <div class="slider-content">
+              <div class="slider-content-top"></div>
+              <div class="slider-content-center"></div>
+              <div class="slider-content-bottom">
+                Χρυσός Ερμής στην κατηγορία Ιnternal Communications για την <br>καμπάνια <span style="color:#e9c136;">“Ready to Make a Difference”</span> της Janssen Greece.
+              </div>
+            </div>
+          </div>
+          <div class="single-item single-item-2 h-100">
+            <div class="slider-content">
+              <div class="slider-content-top"></div>
+              <div class="slider-content-center"><strong>FullStack</strong><br>Marketing</div>
+              <div class="slider-content-bottom"></div>
+            </div>
+          </div>
+          <div class="single-item single-item-3 h-100">
+            <div class="slider-content">
+              <div class="slider-content-top"></div>
+              <div class="slider-content-center"></div>
+              <div class="slider-content-bottom"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

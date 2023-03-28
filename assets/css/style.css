@@ -75,9 +75,8 @@ footer li a {
     z-index: 9;
     width: 35px;
     height: 35px;
-    /* opacity: 0; */
+    opacity: 0;
     transition: 0.3s;
-    background: #c36;
 }
 .slick-next{
     right: 25px;
@@ -87,13 +86,13 @@ footer li a {
 }
 .slick-prev:before {
     background-image: url(../images/home/arrow-left.png);
-    width: 35px;
-    height: 35px;
-    display: block;
-    content: " ";
 }
 .slick-next:before{
     background-image: url(../images/home/arrow-right.png);
+}
+.slick-prev:before, .slick-next:before{
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 35px;
     height: 35px;
     display: block;
@@ -106,8 +105,37 @@ footer li a {
     height: 100%;
 }
 .single-item{
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
+}
+.slider-section{
+    height: 36.5vw;
+}
+.slider-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    height: inherit;
+}
+.slider-content-top{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+}
+.slider-content-bottom {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+}
+.slider-content-center{
+    font-size: 68px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 500;
 }
 
 .single-item-1{
@@ -118,6 +146,18 @@ footer li a {
 }
 .single-item-3{
     background-image: url("../images/home/digital-dissraption-sessions.jpg");
+}
+@media (max-width: 575px) {
+    .slick-prev:before, .slick-next:before, .slick-next, .slick-prev{
+        width: 25px;
+        height: 25px;
+    }
+    .slider-content-bottom {
+        font-size: 11px;
+    }
+    .slider-section{
+        height: 40vw;
+    }
 }
 /* sm */
 @media (min-width: 576px) {

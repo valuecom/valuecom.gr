@@ -23,6 +23,7 @@
             autoplay: true,
             autoplaySpeed: 5000,
         });
+
     });
 </script>
 </body>
