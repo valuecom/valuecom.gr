@@ -48,7 +48,7 @@ include_once("_header.php");
     <div class="container-xxl">
       <div class="row">
         <div class="col-6">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-do-fullStack-marketing.jpg" class="figure-img img-fluid" alt="...">
@@ -58,7 +58,7 @@ include_once("_header.php");
           </figure>
         </div>
         <div class="col-3">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-are-storytellers.jpg" class="figure-img img-fluid" alt="...">
@@ -68,7 +68,7 @@ include_once("_header.php");
           </figure>
         </div>
         <div class="col-3">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1800">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-dream.jpg" class="figure-img img-fluid" alt="...">
@@ -84,7 +84,7 @@ include_once("_header.php");
     <div class="container-xxl">
       <div class="row">
         <div class="col-3">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-are-trusted.png" class="figure-img img-fluid" alt="...">
@@ -94,7 +94,7 @@ include_once("_header.php");
           </figure>
         </div>
         <div class="col-3">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-deliver.png" class="figure-img img-fluid" alt="...">
@@ -104,7 +104,7 @@ include_once("_header.php");
           </figure>
         </div>
         <div class="col-6">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1800">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-believe.jpg" class="figure-img img-fluid" alt="...">
@@ -120,7 +120,7 @@ include_once("_header.php");
     <div class="container-xxl">
       <div class="row">
         <div class="col-6">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1200">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-study-and-research.jpg" class="figure-img img-fluid" alt="...">
@@ -130,7 +130,7 @@ include_once("_header.php");
           </figure>
         </div>
         <div class="col-3">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-have-faces.jpg" class="figure-img img-fluid" alt="...">
@@ -140,7 +140,7 @@ include_once("_header.php");
           </figure>
         </div>
         <div class="col-3">
-          <figure class="figure">
+          <figure class="figure" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1800">
             <a href="#">
               <div class="figure-img-wrap">
                 <img src="../assets/images/home/we-team.jpg" class="figure-img img-fluid" alt="...">
