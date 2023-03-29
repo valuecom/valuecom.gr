@@ -137,6 +137,13 @@ footer li a {
     text-align: center;
     font-weight: 500;
 }
+.single-item-2 .slider-content-center h1{
+    font-size: 68px;
+}
+.single-item a.slide-link {
+    display: block;
+    height: inherit;
+}
 
 .single-item-1{
     background-image: url("../images/home/ermis-gold.jpg");
@@ -154,6 +161,12 @@ footer li a {
     }
     .slider-content-bottom {
         font-size: 11px;
+    }
+    .slider-content-center{
+        font-size: 38px;
+    }
+    .single-item-2 .slider-content-center h1{
+        font-size: 38px;
     }
     .slider-section{
         height: 40vw;

@@ -7,35 +7,43 @@ include_once("_header.php");
   <section class="slider-section mb-5 ">
     <div class="container-fluid px-0 h-100">
       <div class="slider h-100">
-        <!-- <div class="placeholder-height-slider"><img src="../assets/images/home/placeholder-img.png" alt=""></div> -->
         <div class="home-slider h-100">
           <div class="single-item single-item-1 h-100">
-            <div class="slider-content">
-              <div class="slider-content-top"></div>
-              <div class="slider-content-center"></div>
-              <div class="slider-content-bottom">
-                Χρυσός Ερμής στην κατηγορία Ιnternal Communications για την <br>καμπάνια <span style="color:#e9c136;">“Ready to Make a Difference”</span> της Janssen Greece.
+            <a class="slide-link" href="#">
+              <div class="slider-content">
+                <div class="slider-content-top"></div>
+                <div class="slider-content-center"></div>
+                <div class="slider-content-bottom">
+                  Χρυσός Ερμής στην κατηγορία Ιnternal Communications για την <br>καμπάνια <span style="color:#e9c136;">“Ready to Make a Difference”</span> της Janssen Greece.
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="single-item single-item-2 h-100">
-            <div class="slider-content">
-              <div class="slider-content-top"></div>
-              <div class="slider-content-center"><strong>FullStack</strong><br>Marketing</div>
-              <div class="slider-content-bottom"></div>
-            </div>
+            <a class="slide-link" href="#">
+              <div class="slider-content">
+                <div class="slider-content-top"></div>
+                <div class="slider-content-center">
+                  <h1><strong>FullStack</strong><br>Marketing</h1>
+                </div>
+                <div class="slider-content-bottom"></div>
+              </div>
+            </a>
           </div>
           <div class="single-item single-item-3 h-100">
-            <div class="slider-content">
-              <div class="slider-content-top"></div>
-              <div class="slider-content-center"></div>
-              <div class="slider-content-bottom"></div>
-            </div>
+            <a class="slide-link" href="#">
+              <div class="slider-content">
+                <div class="slider-content-top"></div>
+                <div class="slider-content-center"></div>
+                <div class="slider-content-bottom"></div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <section class="py-3">
     <div class="container-xxl">
       <div class="row">
@@ -144,8 +152,6 @@ include_once("_header.php");
       </div>
     </div>
   </section>
-
-</main>
 
 </main>
 

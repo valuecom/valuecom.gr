@@ -20,7 +20,7 @@
             speed: 1000,
             slidesToShow: 1,
             adaptiveHeight: false,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed: 5000,
         });
 
